@@ -15,20 +15,23 @@
 <body>
     <header>
         <!--Listas horizontales:Display inline-->
-        <ul>
-            <li>Gmail</li>
-            <li>Imágenes</li>
-            <li>Ícono</li>
-            <li>Foto de perfil</li>
+    <div>
+        <ul class="header-der">
+            <li><a href="https://www.google.com/intl/es/gmail/about/">Gmail</a></li>
+            <li><a href="https://www.google.com.mx/imghp?hl=es">Imágenes</a></li>
+            <li><a href=""><img class="menu-icon" src="assets/menuIcon.png" alt=""></a></li>
+            <li><a href=""><img class="profile-icon" src="assets/profile.png" alt=""></a></li>
         </ul>
+    </div>
     </header>
+
     <main>
-        <section>
+        <section id="logo">
             <img src="assets/logoGoogle.png" alt="Logo">
         </section>
         <section>
-            <article class="btn-buscador">
-                <div class="icon-buscador">
+            <article class="conjunto-buscador">
+                <div class="icon-buscador" id="lupa">
                     <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path
                             d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
@@ -69,31 +72,35 @@
                     </svg>
                 </div>
             </article>
-            <article>
+            <article class="btn-buscador">
                 <button>Buscar con Google</button>
-                <button>Voy a tener suerte</button>
+                <button><a href="https://www.google.com/doodles">Voy a tener suerte</a></button>
             </article>
         </section>
     </main>
+
     <footer>
-        <section>
-            <ul>
-                <li>México</li>
-            </ul>
-        </section>
-        <section>
-            <ul>
-                <li>Sobre Google</li>
-                <li>Publicidad</li>
-                <li>Negocios</li>
-                <li>Cómo funciona la Búsqueda</li>
-            </ul>
-            <ul>
-                <li>Privacidad</li>
-                <li>Condiciones</li>
-                <li>Preferencias</li>
-            </ul>
-        </section>
+        <ul class="footer-izq">
+            <li><a href="">México</a></li>
+        </ul>
+        <br>
+        <ul class="footer-izq">
+            <li><a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre
+                    Google</a></li>
+            <li><a
+                    href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+            </li>
+            <li><a
+                    href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">Negocios</a>
+            </li>
+            <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a></li>
+        </ul>
+        <ul class="footer-der">
+            <li><a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a></li>
+            <li><a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a></li>
+            <li><a href="">Preferencias</a></li>
+        </ul>
+
     </footer>
 </body>
 
