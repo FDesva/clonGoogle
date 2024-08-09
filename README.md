@@ -3,7 +3,7 @@ Proyecto creado en **Tecnolochicas Pro** simulando la página principal del nave
 ******
 Poniendo en practica lo aprendido en el bootcamp logré realizar un clon del exporador de google.
 ## 1. Intro
-ELk proyecto fue creado con **HTML Y CSS**. Se trata de el navegador más usado: la inrerfaz Google
+El proyecto fue creado con **HTML Y CSS**. Se trata de el navegador más usado: la inrerfaz Google
 * Puedes visitar el sitio de el siguiente enlace 
 ![Clon de google](assets/clonGoogle.png)
 
